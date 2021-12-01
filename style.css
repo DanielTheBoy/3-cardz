@@ -10,7 +10,9 @@ body{
 }
 .container{
     height: 30rem;
-    width: 20rem;
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
     display: grid;
     padding: 3rem;
 }
