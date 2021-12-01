@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    padding: 5rem 1.6rem;
+}
+.container{
+    height: 30rem;
+    width: 20rem;
+    display: grid;
+    padding: 3rem;
+}
+#first-container{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 0.3125rem;
+    border-top-right-radius: 0.3125rem;
+}
+#second-container{
+    background-color: hsl(184, 100%, 22%);
+}
+#third-container{
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 0.3125rem;
+    border-bottom-right-radius: 0.3125rem;
+}
+h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: hsl(0, 0%, 100%, 0.75);
+    margin: 2rem 0 2rem;
+}
+p{
+    color: hsl(0, 0%, 100%, 0.75);
+    Font-size: 0.9375rem;
+    line-height: 1.5rem;
+}
+.button{
+    height: 3rem;
+    width: 9rem;
+    padding-top: .75rem;
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    text-decoration: none;
+    margin-top: 1.5rem;
+}
+#button-one{
+    color: hsl(31, 77%, 52%);
+}
+#button-two{
+    color: hsl(184, 100%, 22%);
+}
+#button-three{
+    color: hsl(179, 100%, 13%);
+}
+.attribution{
+    margin-top: 3rem;
+}
+.attribution a{
+    text-decoration: none;
+    margin-top: none;
+}
+.button:hover{
+    cursor: pointer;
+}
+#button-one:hover{
+    color: hsl(0, 0%, 95%);
+    background: hsl(31, 77%, 52%);
+    border: 2px solid;
+}
+#button-two:hover{
+    color: hsl(0, 0%, 95%);
+    background: hsl(184, 100%, 22%);
+    border: 2px solid;
+}
+#button-three:hover{
+    color: hsl(0, 0%, 95%);
+    background: hsl(179, 100%, 13%);
+    border: 2px solid;
+}
+@media screen and (min-width:600px){
+    body{
+        padding: 13rem 5rem 10rem 5rem ;
+    }
+    main{
+        display: flex;
+        max-width: 1440px;
+        margin: 5rem auto; 
+    }
+    .container{
+        width: 100%;
+        max-width: 100%;   
+    }
+    #first-container{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0.3125rem;
+    }
+    #third-container{
+        border-bottom-right-radius: 0.3125rem;
+        border-top-right-radius: 0.3125rem;
+        border-bottom-left-radius: 0;
+    }
+    .attribution{
+        text-align: left;
+    }
+}
+
+
